@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send } from 'lucide-react';
+import '../webview/styles/chat.css';
 
 const vscode = window.acquireVsCodeApi();
 
