@@ -12,13 +12,19 @@
         "rootDir": "src",
         "strict": true,
         "esModuleInterop": true,
-        "jsx": "react",
         "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
-        "typeRoots": ["./node_modules/@types", "./src/types"]
+        "jsx": "react",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./src/types"
+        ]
     },
     "include": [
-        "src"
+        "src/**/*"
     ],
     "exclude": [
         "node_modules",
